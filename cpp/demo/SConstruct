@@ -1,0 +1,19 @@
+if ARGUMENTS.get('CC') == 'gcc':
+	env=DefaultEnvironment(
+		tools=['mingw'],
+		platform='msys',
+		TARGET_ARCH='x86',
+		LINKFLAGS='-m32 -mconsole'
+	)
+	#env.Append(CXXFLAGS=['-Wdeprecated-declarations'])
+else:
+	env=DefaultEnvironment(TARGET_ARCH='x86',LINKFLAGS=['/NOLOGO','/subsystem:console,5.01'],MSVC_VERSION='14.0') 
+
+env.Append(
+        CXXFLAGS= ['-I../include'],
+        CCFLAGS= ['-I../include']
+)
+
+Program('simpleline',['simpleline.cpp'],LIBPATH=['../lib32'],  LIBS=["chartdir60"])
+
+
