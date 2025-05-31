@@ -1,0 +1,3030 @@
+draw() called for 
+  worldTranslation: (0.0, -0.0027222222222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 300.27222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.008166666666666668)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 300.81668
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.016333333333333335)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 301.63333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.027222222222222224)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 302.72223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.04083333333333333)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 304.08334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.05716666666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 305.71667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.07622222222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 307.62222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.09800000000000002)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 309.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.12250000000000003)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 312.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.14972222222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 314.97223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.1796666666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 317.96667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.21233333333333337)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 321.23334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.24772222222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 324.77222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.2858333333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 328.58334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.3266666666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 332.66666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.3702222222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 337.02222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.4165000000000001)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 341.65
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.46550000000000014)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 346.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.5172222222222224)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 351.72223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.5716666666666669)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 357.16666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.6288333333333336)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 362.88333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.6887222222222225)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 368.87222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.7513333333333336)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 375.13333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.816666666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 381.66666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.8847222222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 388.47223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -0.9555000000000005)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 395.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.0290000000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 402.9
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.1052222222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 410.52222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.1841666666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 418.41666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.265833333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 426.58334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.3502222222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 435.02222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.437333333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 443.73334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.5271666666666674)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 452.71667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.619722222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 461.97223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.7150000000000007)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 471.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.8130000000000008)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 481.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -1.913722222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 491.37222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.017166666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 501.71667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.123333333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 512.3333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.232222222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 523.2222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.343833333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 534.38336
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.458166666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 545.81665
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.5752222222222225)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 557.5222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.6950000000000003)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 569.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.8175000000000003)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 581.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -2.9427222222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 594.2722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -3.070666666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 607.06665
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -3.2013333333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 620.13336
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -3.334722222222222)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 633.4722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -3.470833333333333)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 647.0833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -3.6096666666666666)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 660.9667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -3.7512222222222222)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 675.1222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -3.8955)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 689.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -4.0425)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 704.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -4.192222222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 719.2222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -4.344666666666668)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 734.4667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -4.499833333333335)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 749.98334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -4.657722222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 765.7722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -4.818333333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 781.8333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -4.981666666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 798.1667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -5.147722222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 814.7722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -5.3165000000000004)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 831.65
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -5.488)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 848.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -5.662222222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 866.2222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -5.839166666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 883.9167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -6.018833333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 901.88336
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -6.201222222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 920.1222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -6.386333333333335)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 938.63336
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -6.5741666666666685)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 957.4167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -6.7647222222222245)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 976.4722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -6.958000000000003)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 995.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -7.1540000000000035)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1015.4
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -7.3527222222222255)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1035.2722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -7.55416666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1055.4166
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -7.758333333333336)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1075.8334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -7.965222222222225)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1096.5222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -8.174833333333337)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1117.4833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -8.38716666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1138.7167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -8.602222222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1160.2222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -8.820000000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1182.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -9.040500000000005)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1204.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -9.263722222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1226.3722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -9.489666666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1248.9667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -9.718333333333339)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1271.8334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -9.949722222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1294.9722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -10.18383333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1318.3833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -10.420666666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1342.0667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -10.66022222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1366.0222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -10.902500000000007)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1390.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -11.147500000000008)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1414.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -11.39522222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1439.5222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -11.645666666666676)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1464.5667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -11.898833333333343)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1489.8833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -12.154722222222233)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1515.4722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -12.413333333333345)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1541.3334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -12.674666666666678)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1567.4667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -12.938722222222234)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1593.8722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -13.205500000000011)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1620.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -13.475000000000012)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1647.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -13.747222222222234)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1674.7222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -14.02216666666668)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1702.2167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -14.299833333333346)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1729.9833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -14.580222222222236)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1758.0222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -14.863333333333347)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1786.3334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -15.149166666666682)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1814.9166
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -15.437722222222238)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1843.7722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -15.729000000000017)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1872.9
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -16.023000000000017)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1902.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -16.31972222222224)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1931.9722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -16.619166666666686)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1961.9166
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -16.921333333333354)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 1992.1333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -17.226222222222244)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2022.6222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -17.533833333333355)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2053.3833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -17.844166666666688)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2084.4167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -18.157222222222245)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2115.7222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -18.473000000000024)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2147.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -18.791500000000024)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2179.15
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -19.112722222222246)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2211.2722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -19.436666666666692)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2243.6667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -19.76333333333336)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2276.3333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -20.09272222222225)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2309.2722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -20.42483333333336)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2342.4834
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -20.759666666666696)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2375.9666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -21.097222222222253)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2409.7222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -21.437500000000032)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2443.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -21.780500000000032)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2478.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -22.126222222222253)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2512.6223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -22.4746666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2547.4666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -22.825833333333367)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2582.5833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -23.179722222222257)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2617.9722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -23.536333333333367)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2653.6333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -23.895666666666703)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2689.5667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -24.25772222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2725.7722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -24.622500000000038)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2762.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -24.990000000000038)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2799.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -25.360222222222262)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2836.0222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -25.73316666666671)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2873.3167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -26.108833333333376)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2910.8833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -26.487222222222265)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2948.7222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -26.868333333333375)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 2986.8333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -27.25216666666671)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3025.2166
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -27.638722222222267)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3063.8723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -28.028000000000045)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3102.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -28.420000000000044)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3142.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -28.81472222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3181.4722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -29.212166666666715)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3221.2166
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -29.612333333333382)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3261.2334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -30.01522222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3301.5222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -30.420833333333384)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3342.0833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -30.82916666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3382.9167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -31.240222222222275)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3424.0222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -31.654000000000053)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3465.4
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -32.07050000000005)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3507.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -32.48972222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3548.9722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -32.91166666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3591.1667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -33.336333333333386)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3633.6333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -33.76372222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3676.3723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -34.19383333333339)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3719.3833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -34.62666666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3762.6667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -35.06222222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3806.2222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -35.50050000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3850.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -35.94150000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3894.15
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -36.38522222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3938.5222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -36.83166666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 3983.1667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -37.2808333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4028.0833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -37.732722222222286)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4073.2722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -38.1873333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4118.7334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -38.64466666666674)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4164.467
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -39.10472222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4210.472
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -39.567500000000074)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4256.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -40.03300000000007)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4303.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -40.501222222222296)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4350.122
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -40.972166666666745)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4397.217
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -41.44583333333341)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4444.5835
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -41.9222222222223)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4492.222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -42.40133333333341)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4540.1333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -42.883166666666746)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4588.317
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -43.367722222222305)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4636.7725
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -43.85500000000008)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4685.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -44.345000000000084)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4734.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -44.83772222222231)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4783.7725
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -45.333166666666756)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4833.317
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -45.831333333333426)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4883.1333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -46.33222222222231)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4933.222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -46.835833333333426)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 4983.5835
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -47.34216666666676)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5034.217
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -47.85122222222232)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5085.122
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -48.3630000000001)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5136.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -48.8775000000001)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5187.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -49.39472222222232)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5239.472
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -49.91466666666677)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5291.467
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -50.437333333333434)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5343.7334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -50.962722222222325)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5396.2725
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -51.49083333333344)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5449.0835
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -52.021666666666775)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5502.1665
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -52.55522222222233)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5555.5225
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -53.09150000000011)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5609.15
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -53.63050000000011)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5663.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -54.17222222222234)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5717.222
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -54.71666666666678)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5771.6665
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -55.26383333333345)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5826.3833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -55.81372222222234)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5881.372
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -56.36633333333345)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5936.6333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -56.92166666666679)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 5992.1665
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -57.47972222222234)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6047.972
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -58.04050000000012)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6104.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -58.60400000000013)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6160.4
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -59.17022222222235)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6217.0225
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -59.7391666666668)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6273.9165
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -60.31083333333346)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6331.0835
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -60.88522222222235)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6388.5225
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -61.46233333333347)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6446.2334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -62.0421666666668)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6504.217
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -62.62472222222236)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6562.472
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -63.210000000000136)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6621.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -63.79800000000014)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6679.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -64.38872222222236)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6738.872
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -64.9821666666668)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6798.217
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -65.57833333333346)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6857.8335
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -66.17722222222235)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6917.722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -66.77883333333347)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 6977.8833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -67.3831666666668)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7038.317
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -67.99022222222236)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7099.0225
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -68.60000000000014)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7160.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -69.21250000000013)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7221.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -69.82772222222236)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7282.7725
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -70.44566666666681)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7344.567
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -71.06633333333347)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7406.6333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -71.68972222222237)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7468.972
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -72.31583333333349)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7531.5835
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -72.94466666666682)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7594.467
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -73.57622222222237)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7657.622
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -74.21050000000015)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7721.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -74.84750000000015)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7784.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -75.48722222222237)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7848.722
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -76.12966666666682)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7912.967
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -76.77483333333349)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 7977.4834
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -77.42272222222238)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8042.2725
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -78.0733333333335)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8107.3335
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -78.72666666666683)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8172.6665
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -79.38272222222238)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8238.272
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -80.04150000000017)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8304.15
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -80.70300000000017)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8370.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -81.3672222222224)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8436.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -82.03416666666683)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8503.417
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -82.7038333333335)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8570.384
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -83.3762222222224)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8637.622
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -84.0513333333335)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8705.134
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -84.72916666666684)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8772.917
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -85.4097222222224)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8840.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -86.09300000000017)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8909.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -86.77900000000018)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 8977.9
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -87.4677222222224)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9046.772
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -88.15916666666685)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9115.917
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -88.85333333333352)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9185.333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -89.55022222222242)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9255.022
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -90.24983333333353)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9324.983
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -90.95216666666687)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9395.217
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -91.65722222222243)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9465.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -92.36500000000021)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9536.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -93.0755000000002)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9607.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -93.78872222222243)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9678.872
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -94.50466666666688)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9750.467
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -95.22333333333354)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9822.333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -95.94472222222244)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9894.473
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -96.66883333333355)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 9966.884
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -97.39566666666688)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10039.566
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -98.12522222222245)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10112.522
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -98.85750000000023)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10185.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -99.59250000000023)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10259.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -100.33022222222246)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10333.022
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -101.07066666666691)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10407.066
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -101.81383333333358)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10481.384
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -102.55972222222246)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10555.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -103.30833333333358)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10630.833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -104.05966666666691)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10705.967
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -104.81372222222247)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10781.372
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -105.57050000000025)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10857.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -106.33000000000025)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 10933.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -107.09222222222247)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11009.223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -107.85716666666693)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11085.717
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -108.6248333333336)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11162.483
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -109.39522222222249)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11239.522
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -110.1683333333336)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11316.833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -110.94416666666694)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11394.417
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -111.7227222222225)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11472.272
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -112.50400000000027)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11550.4
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -113.28800000000028)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11628.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -114.0747222222225)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11707.473
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -114.86416666666695)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11786.417
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -115.65633333333362)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11865.634
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -116.45122222222251)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 11945.122
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -117.24883333333362)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12024.884
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -118.04916666666696)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12104.917
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -118.85222222222252)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12185.223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -119.6580000000003)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12265.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -120.46650000000031)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12346.65
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -121.27772222222254)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12427.772
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -122.09166666666698)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12509.167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -122.90833333333364)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12590.833
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -123.72772222222254)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12672.772
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -124.54983333333365)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12754.983
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -125.37466666666698)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12837.467
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -126.20222222222255)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 12920.223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -127.03250000000033)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13003.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -127.86550000000032)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13086.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -128.70122222222255)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13170.122
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -129.539666666667)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13253.967
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -130.38083333333367)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13338.083
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -131.22472222222257)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13422.473
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -132.07133333333368)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13507.134
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -132.92066666666702)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13592.066
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -133.77272222222257)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13677.272
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -134.62750000000034)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13762.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -135.48500000000035)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13848.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -136.3452222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 13934.522
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -137.20816666666704)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14020.816
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -138.0738333333337)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14107.384
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -138.9422222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14194.223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -139.8133333333337)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14281.333
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -140.68716666666703)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14368.717
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -141.5637222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14456.372
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -142.44300000000038)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14544.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -143.3250000000004)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14632.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -144.2097222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14720.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -145.09716666666705)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14809.717
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -145.9873333333337)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14898.733
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -146.8802222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 14988.022
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -147.77583333333374)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15077.583
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -148.67416666666708)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15167.417
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -149.57522222222264)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15257.522
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -150.4790000000004)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15347.9
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -151.3855000000004)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15438.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -152.29472222222262)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15529.473
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -153.20666666666708)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15620.667
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -154.12133333333375)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15712.134
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -155.03872222222265)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15803.872
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -155.95883333333376)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15895.884
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -156.8816666666671)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 15988.167
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -157.80722222222263)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16080.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -158.73550000000043)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16173.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -159.66650000000044)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16266.65
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -160.60022222222267)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16360.022
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -161.53666666666712)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16453.666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -162.47583333333378)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16547.584
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -163.41772222222266)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16641.771
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -164.36233333333377)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16736.232
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -165.3096666666671)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16830.967
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -166.25972222222268)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 16925.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -167.21250000000046)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17021.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -168.16800000000046)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17116.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -169.12622222222268)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17212.623
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -170.08716666666712)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17308.717
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -171.0508333333338)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17405.084
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -172.0172222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17501.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -172.98633333333382)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17598.633
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -173.95816666666715)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17695.816
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -174.9327222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17793.271
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -175.91000000000048)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17891.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -176.89000000000047)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 17989.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -177.8727222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18087.271
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -178.85816666666716)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18185.816
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -179.84633333333383)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18284.633
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -180.83722222222272)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18383.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -181.83083333333383)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18483.084
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -182.82716666666715)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18582.717
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -183.82622222222273)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18682.623
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -184.82800000000051)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18782.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -185.83250000000052)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18883.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -186.83972222222275)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 18983.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -187.8496666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19084.967
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -188.86233333333385)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19186.232
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -189.87772222222273)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19287.771
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -190.89583333333385)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19389.584
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -191.9166666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19491.666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -192.94022222222276)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19594.021
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -193.96650000000054)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19696.65
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -194.99550000000053)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19799.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -196.02722222222275)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 19902.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -197.0616666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20006.166
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -198.09883333333389)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20109.883
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -199.13872222222278)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20213.873
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -200.1813333333339)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20318.133
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -201.22666666666723)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20422.666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -202.27472222222278)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20527.473
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -203.32550000000055)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20632.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -204.37900000000056)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20737.9
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -205.4352222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20843.521
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -206.49416666666724)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 20949.416
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -207.5558333333339)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21055.584
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -208.6202222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21162.021
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -209.6873333333339)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21268.732
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -210.75716666666725)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21375.717
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -211.8297222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21482.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -212.9050000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21590.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -213.9830000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21698.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -215.06372222222282)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21806.373
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -216.14716666666726)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 21914.717
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -217.23333333333392)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22023.334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -218.32222222222282)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22132.223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -219.41383333333394)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22241.383
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -220.50816666666728)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22350.816
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -221.60522222222284)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22460.521
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -222.7050000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22570.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -223.8075000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22680.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -224.91272222222284)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22791.271
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -226.0206666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 22902.066
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -227.13133333333397)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23013.133
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -228.24472222222286)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23124.473
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -229.36083333333397)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23236.084
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -230.4796666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23347.967
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -231.60122222222284)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23460.123
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -232.72550000000064)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23572.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -233.85250000000065)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23685.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -234.98222222222287)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23798.223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -236.11466666666732)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 23911.467
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -237.24983333333398)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24024.982
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -238.38772222222286)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24138.771
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -239.52833333333396)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24252.834
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -240.6716666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24367.166
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -241.81772222222287)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24481.771
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -242.96650000000065)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24596.65
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -244.11800000000065)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24711.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -245.27222222222287)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24827.223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -246.4291666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 24942.916
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -247.58883333333398)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25058.883
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -248.75122222222288)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25175.123
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -249.916333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25291.633
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -251.08416666666733)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25408.416
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -252.25472222222288)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25525.473
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -253.42800000000065)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25642.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -254.60400000000064)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25760.4
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -255.78272222222287)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25878.271
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -256.9641666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 25996.416
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -258.148333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 26114.834
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -259.3352222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 26233.521
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -260.524833333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 26352.482
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -261.71716666666737)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 26471.717
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -262.9122222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 26591.223
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -264.1100000000007)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 26711.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -265.3105000000007)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 26831.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -266.5137222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 26951.373
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -267.71966666666737)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 27071.967
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -268.928333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 27192.834
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -270.13972222222293)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 27313.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -271.353833333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 27435.383
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -272.57066666666736)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 27557.066
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -273.7902222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 27679.021
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -275.01250000000067)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 27801.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -276.2375000000007)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 27923.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -277.4652222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 28046.521
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -278.69566666666736)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 28169.566
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -279.928833333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 28292.883
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -281.1647222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 28416.473
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -282.403333333334)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 28540.334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -283.6446666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 28664.467
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -284.8887222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 28788.873
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -286.13550000000066)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 28913.55
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -287.3850000000007)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 29038.5
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -288.6372222222229)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 29163.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -289.8921666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 29289.217
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -291.14983333333396)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 29414.982
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -292.41022222222284)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 29541.021
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -293.67333333333397)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 29667.334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -294.9391666666673)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 29793.916
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -296.20772222222286)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 29920.771
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -297.4790000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 30047.9
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -298.7530000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 30175.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -300.0297222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 30302.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -301.30916666666724)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 30430.916
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -302.5913333333339)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 30559.133
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -303.8762222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 30687.623
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -305.1638333333339)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 30816.383
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -306.4541666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 30945.416
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -307.7472222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 31074.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -309.0430000000006)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 31204.3
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -310.34150000000056)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 31334.15
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -311.6427222222228)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 31464.271
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -312.9466666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 31594.666
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -314.2533333333339)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 31725.334
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -315.56272222222276)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 31856.271
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -316.87483333333387)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 31987.482
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -318.1896666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 32118.967
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -319.50722222222277)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 32250.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -320.82750000000055)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 32382.75
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -322.15050000000053)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 32515.05
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -323.47622222222276)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 32647.623
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -324.8046666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 32780.465
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -326.13583333333384)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 32913.582
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -327.46972222222274)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 33046.973
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -328.80633333333384)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 33180.633
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -330.1456666666672)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 33314.566
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -331.4877222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 33448.773
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -332.8325000000005)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 33583.25
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -334.18000000000046)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 33718.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -335.5302222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 33853.023
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -336.88316666666714)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 33988.316
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -338.2388333333338)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 34123.883
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -339.5972222222227)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 34259.723
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -340.95833333333377)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 34395.832
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -342.3221666666671)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 34532.215
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -343.6887222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 34668.87
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -345.0580000000004)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 34805.8
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -346.4300000000004)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 34943.0
+  scale: 100.0
+draw() called for 
+  worldTranslation: (0.0, -347.8047222222226)
+  worldRotation: 0.0
+  screenX: 400.0
+  screenY: 35080.473
+  scale: 100.0
