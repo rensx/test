@@ -1,307 +1,479 @@
 package com.example;
 
+
+
 import processing.core.PGraphics;
+
 import processing.core.PVector;
-// import processing.core.PConstants; // Keep if PxObject implementations need it
+
+
 
 import javax.imageio.ImageIO;
+
 import java.awt.image.BufferedImage;
+
 import java.io.File;
+
 import java.util.*;
+
 import java.util.function.Predicate;
+
 import java.util.logging.Level;
+
 import java.util.stream.Collectors;
+
 import javafx.scene.image.WritableImage;
 
+
+
+
+
+/**
+
+* 增强型物理场景，支持批量对象管理、动画、帧导出、日志、样式、相机等功能。
+
+* 部分API风格参考JMathAnimScene。
+
+*/
+
 public class PxScene {
-    // Scene objects
+
+    // 场景对象
+
     protected final List<PxObject> objects = new ArrayList<>();
-    protected final Set<PxObject> objectsAlreadyDrawn = new HashSet<>(); // For specific object logic
-    protected final List<PxObject> objectsToBeRemoved = new ArrayList<>(); // For deferred removal
+
+    protected final Set<PxObject> objectsAlreadyDrawn = new HashSet<>();
+
+    protected final List<PxObject> objectsToBeRemoved = new ArrayList<>();
+
     protected final List<PxAnim> animations = new ArrayList<>();
+
     private final PxPhysicsWorld physicsWorld = new PxPhysicsWorld();
 
-    // Camera parameters (world units)
-    protected float viewScale = 100.0f; // Pixels per world unit
-    protected PVector viewCenter = new PVector(0, 0); // World coordinates at the center of the view
 
-    // Rendering related
+
+    // 相机参数
+
+    protected float viewScale = 100.0f;
+
+    protected PVector viewCenter = new PVector(0, 0);
+
+
+
+    // 渲染相关
+
     protected final int width, height;
-    protected final PGraphics pg;
-    protected int frameCount = 0;
-    protected int backgroundColor; // Stored as a Processing color int
 
-    // Logging
-    protected static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(PxScene.class.getName());
+    protected final PGraphics pg;
+
+    protected int frameCount = 0;
+
+
+
+    // 日志
+
+    protected static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger("com.example.PxScene");
+
+
 
     public PxScene(PGraphics pg) {
+
         this.pg = pg;
+
         this.width = pg.width;
+
         this.height = pg.height;
-        this.backgroundColor = pg.color(255); // Default white background
-        logger.info("PxScene initialized with existing PGraphics.");
+
     }
 
     public PxScene(int w, int h) {
+
         this.width = w;
+
         this.height = h;
+
         this.pg = new processing.awt.PGraphicsJava2D();
+
         this.pg.setPrimary(false);
-        this.pg.setSize(this.width, this.height);
-        this.backgroundColor = pg.color(255); // Default white background
-        logger.info("PxScene initialized with new PGraphics (" + w + "x" + h + ").");
+
+        this.pg.setSize(width, height);
+
+        // 不要在这里 beginDraw/endDraw!
+
     }
 
-    public PGraphics getPg() {
-        return this.pg;
+    public PGraphics getPg() {return this.pg;}
+
+    public void add(PxPhysicsObject obj) {
+
+        objects.add(obj);
+
+        physicsWorld.addBody(obj.getBody());
+
     }
 
-    public void update(double dt) {
-        processPendingRemovals();
 
-        Iterator<PxAnim> animIterator = animations.iterator();
-        while (animIterator.hasNext()) {
-            PxAnim anim = animIterator.next();
-            anim.update();
-            if (anim.isFinished()) { // Now calls the method from PxAnim
-                animIterator.remove();
-            }
-        }
 
-        for (PxObject obj : objects) {
-            obj.update();
-        }
+    public void remove(PxPhysicsObject obj) {
+
+        objects.remove(obj);
+
+        physicsWorld.removeBody(obj.getBody());
+
+    }
+
+
+
+    public void step(double dt) {
 
         physicsWorld.step(dt);
-        frameCount++;
+
+        // 可以更新PxObject的状态（如同步物理位置到可视对象等）
+
     }
 
-    private synchronized void processPendingRemovals() {
-        if (objectsToBeRemoved.isEmpty()) {
-            return;
-        }
-        for (PxObject obj : objectsToBeRemoved) {
-            if (objects.remove(obj)) {
-                obj.removedFromSceneHook(this);
-                if (obj instanceof PxPhysicsObject) {
-                    // Corrected: Pass the Body to PxPhysicsWorld
-                    physicsWorld.removeBody(((PxPhysicsObject) obj).getBody());
-                }
-                objectsAlreadyDrawn.remove(obj);
+    public void addObject(PxObject o) {
+
+        this.objects.add(o);
+
+    }
+
+
+
+    public void update() {
+
+        for (PxObject o : objects) o.update();
+
+    }
+
+
+
+    public void renderTo(WritableImage image) {
+
+        pg.beginDraw();
+
+        try {
+
+            pg.background(255);
+
+            for (PxObject o : objects) {
+
+                o.draw(pg);
+
             }
+
+        } finally {
+
+            pg.endDraw();
+
         }
-        objectsToBeRemoved.clear();
+
+        pg.loadPixels();
+
+        image.getPixelWriter().setPixels(
+
+            0, 0, width, height,
+
+            javafx.scene.image.PixelFormat.getIntArgbInstance(),
+
+            pg.pixels, 0, width
+
+        );
+
     }
 
+    // ----------- 场景对象管理 -----------
 
     public synchronized void add(PxObject... objs) {
+
         for (PxObject obj : objs) {
+
             if (obj != null && !objects.contains(obj)) {
+
                 objects.add(obj);
+
                 obj.addToSceneHook(this);
-                if (obj instanceof PxPhysicsObject) {
-                    // Corrected: Pass the Body to PxPhysicsWorld
-                    physicsWorld.addBody(((PxPhysicsObject) obj).getBody());
-                }
+
             }
+
         }
+
     }
-    
-    /**
-     * Convenience method to add a single PxObject. Delegates to {@link #add(PxObject...)}.
-     * @param obj The PxObject to add.
-     */
-    public synchronized void addObject(PxObject obj) { // Added for compatibility
-        add(obj); // Delegates to the varargs version
-    }
+
 
 
     public synchronized void add(List<? extends PxObject> objs) {
-        if (objs != null) {
-            add(objs.toArray(new PxObject[0]));
-        }
+
+        for (PxObject obj : objs) add(obj);
+
     }
+
+
 
     public synchronized void remove(PxObject... objs) {
+
         for (PxObject obj : objs) {
-            if (obj != null && objects.contains(obj) && !objectsToBeRemoved.contains(obj)) {
-                objectsToBeRemoved.add(obj);
+
+            if (obj != null && objects.contains(obj)) {
+
+                objects.remove(obj);
+
+                obj.removedFromSceneHook(this);
+
             }
+
         }
+
     }
 
-    public synchronized void removeIf(Predicate<PxObject> predicate) {
-        List<PxObject> toRemove = objects.stream().filter(predicate).collect(Collectors.toList());
-        if (!toRemove.isEmpty()) {
-            remove(toRemove.toArray(new PxObject[0]));
-        }
+
+
+    public synchronized void removeIf(Predicate<PxObject> pred) {
+
+        List<PxObject> toRemove = objects.stream().filter(pred).collect(Collectors.toList());
+
+        remove(toRemove.toArray(new PxObject[0]));
+
     }
+
+
 
     public synchronized void clear() {
+
         remove(objects.toArray(new PxObject[0]));
+
         objectsAlreadyDrawn.clear();
+
     }
+
+
 
     public List<PxObject> getObjects() {
+
         return Collections.unmodifiableList(objects);
+
     }
 
-    public <T extends PxObject> List<T> getObjectsOfType(Class<T> type) {
-        return objects.stream()
-                      .filter(type::isInstance)
-                      .map(type::cast)
-                      .collect(Collectors.toList());
+
+
+    public <T extends PxObject> List<T> getObjectsOfType(Class<T> cls) {
+
+        return objects.stream().filter(cls::isInstance).map(cls::cast).collect(Collectors.toList());
+
     }
 
-    public void setViewScale(float scale) { this.viewScale = scale; }
-    public float getViewScale() { return this.viewScale; }
-    public void setViewCenter(float x, float y) { this.viewCenter.set(x, y); }
-    public PVector getViewCenter() { return this.viewCenter.copy(); }
+
+
+    // ----------- 相机/视角控制 -----------
 
     public void zoomToAllObjects() {
+
         List<PxPhysicsObject> phys = getObjectsOfType(PxPhysicsObject.class);
+
         if (phys.isEmpty()) return;
 
         float minX = Float.POSITIVE_INFINITY, minY = Float.POSITIVE_INFINITY;
+
         float maxX = Float.NEGATIVE_INFINITY, maxY = Float.NEGATIVE_INFINITY;
 
         for (PxPhysicsObject obj : phys) {
+
             PVector pos = obj.getPosition();
-            float size = obj.getBoundingSize() / 2f;
+
+            float size = obj.getBoundingSize() / 2;
+
             minX = Math.min(minX, pos.x - size);
+
             minY = Math.min(minY, pos.y - size);
+
             maxX = Math.max(maxX, pos.x + size);
+
             maxY = Math.max(maxY, pos.y + size);
+
         }
 
-        if (Float.isInfinite(minX)) return;
+        viewCenter.set((minX + maxX) / 2, (minY + maxY) / 2);
 
-        viewCenter.set((minX + maxX) / 2f, (minY + maxY) / 2f);
-        float worldW = maxX - minX;
-        float worldH = maxY - minY;
-        float padding = Math.max(worldW, worldH) * 0.1f;
-        worldW += padding;
-        worldH += padding;
+        float worldW = maxX - minX, worldH = maxY - minY, padding = 0.4f;
 
-        if (worldW <= 0 || worldH <= 0) {
-             viewScale = 100.0f;
-             return;
-        }
+        worldW += padding; worldH += padding;
 
-        float scaleX = (float)width / worldW;
-        float scaleY = (float)height / worldH;
-        viewScale = Math.min(scaleX, scaleY);
+        float sx = width / worldW, sy = height / worldH;
+
+        viewScale = Math.min(sx, sy);
+
     }
+
+
 
     public void zoomToObject(PxPhysicsObject obj) {
-        if (obj == null) return;
+
         PVector pos = obj.getPosition();
+
         viewCenter.set(pos.x, pos.y);
+
+        float margin = 1.5f;
+
         float size = obj.getBoundingSize();
-        float marginFactor = 1.5f;
-        if (size <= 0) {
-            viewScale = 100.0f;
-            return;
-        }
-        viewScale = Math.min(width, height) / (size * marginFactor);
+
+        viewScale = Math.min(width, height) / (size * margin);
+
     }
+
+
 
     public void resetCamera() {
+
         viewCenter.set(0, 0);
+
         viewScale = 100.0f;
+
     }
+
+
+
+    // ----------- 动画管理 -----------
 
     public void playAnimation(PxAnim... anims) {
+
         for (PxAnim anim : anims) {
+
             if (anim != null) {
+
                 anim.setScene(this);
+
                 animations.add(anim);
+
             }
+
         }
+
     }
 
-    public void setBackgroundColor(int gray) {
-        this.backgroundColor = pg.color(gray);
+
+
+    public void advanceFrame() {
+
+        for (PxAnim anim : animations) {
+
+            anim.update();
+
+        }
+
+        draw();
+
+        frameCount++;
+
     }
 
-    public void setBackgroundColor(int r, int g, int b) {
-        this.backgroundColor = pg.color(r, g, b);
-    }
+
+
+    // ----------- 渲染与导出 -----------
 
     public void draw() {
+
         pg.beginDraw();
+
         try {
-            pg.background(backgroundColor);
+
+            pg.background(255);
+
             pg.pushMatrix();
-            pg.translate(width / 2.0f, height / 2.0f);
+
+            pg.translate(width / 2f, height / 2f);
+
             pg.scale(viewScale, -viewScale);
+
             pg.translate(-viewCenter.x, -viewCenter.y);
 
+
+
             for (PxObject obj : objects) {
-                if (obj.isVisible()) {
-                    obj.draw(pg);
-                }
+
+                if (obj.isVisible()) obj.draw(pg);
+
             }
+
             pg.popMatrix();
+
         } finally {
+
             pg.endDraw();
+
         }
+
     }
 
-    public void renderTo(WritableImage image) {
-        draw();
-        pg.loadPixels();
-        if (pg.pixels != null && pg.pixels.length > 0) {
-            image.getPixelWriter().setPixels(
-                0, 0, width, height,
-                javafx.scene.image.PixelFormat.getIntArgbInstance(),
-                pg.pixels, 0, width
-            );
-        } else {
-            logger.warning("PGraphics pixel data is null or empty. Cannot render to WritableImage.");
-        }
-    }
 
-    public void advanceFrameForExport(double fixedDt) {
-        update(fixedDt);
-    }
 
-    public void exportFrame(String filePath) {
+    /** 导出当前帧为图片（PNG） */
+
+    public void exportFrame(String path) {
+
         try {
+
             draw();
-            Object nativeImage = pg.getNative();
-            if (nativeImage instanceof BufferedImage) {
-                ImageIO.write((BufferedImage) nativeImage, "png", new File(filePath));
-                logger.log(Level.INFO, "Exported frame: " + filePath);
-            } else {
-                logger.log(Level.SEVERE, "Failed to export frame: PGraphics native image is not a BufferedImage.");
-            }
+
+            BufferedImage img = (BufferedImage) pg.getNative();
+
+            ImageIO.write(img, "png", new File(path));
+
+            logger.info("导出帧: " + path);
+
         } catch (Exception ex) {
-            logger.log(Level.SEVERE, "Exporting frame to " + filePath + " failed.", ex);
+
+            logger.log(Level.SEVERE, "导出帧失败", ex);
+
         }
+
     }
 
-    public void exportFrames(int numFrames, String filePrefix, double fixedDt) {
-        logger.info("Starting batch frame export: " + numFrames + " frames with prefix '" + filePrefix + "'.");
-        for (int i = 0; i < numFrames; i++) {
-            advanceFrameForExport(fixedDt);
-            exportFrame(String.format("%s_%05d.png", filePrefix, i));
+
+
+    /** 批量导出图片序列（用于视频合成） */
+
+    public void exportFrames(int nFrames, String prefix) {
+
+        for (int i = 0; i < nFrames; i++) {
+
+            advanceFrame();
+
+            exportFrame(String.format("%s_%05d.png", prefix, i));
+
         }
-        logger.info("Finished batch frame export.");
+
     }
+
+
+
+    // ----------- 简单样式/日志接口示例 -----------
 
     public void infoMessage(String msg) {
+
         logger.info(msg);
+
     }
+
+
+
+    // ----------- 其它辅助 -----------
+
+
+
+    /** 标记对象已绘制，用于避免重复绘制或后处理 */
 
     public void markAsAlreadyDrawn(PxObject obj) {
+
         objectsAlreadyDrawn.add(obj);
+
     }
 
+
+
     public boolean isAlreadyDrawn(PxObject obj) {
+
         return objectsAlreadyDrawn.contains(obj);
+
     }
-    public void update(){
-        update(1d/60);
-    }
+
 }

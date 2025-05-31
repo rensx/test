@@ -17,7 +17,7 @@ public class PxPhysicsWorld {
         world.addBody(body);
     }
     public void add(PxPhysicsObject... objs) {
-        for(PxPhysicsObject obj:objs){
+        for (PxPhysicsObject obj : objs) {
             world.addBody(obj.getBody());
         }
     }

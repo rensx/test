@@ -1,48 +1,23 @@
 package com.example;
 
 import processing.core.PGraphics;
-import processing.core.PVector;
 
+/**
+ * 场景对象基类。所有可绘制对象都应继承此类。
+ */
 public abstract class PxObject {
-    protected final PVector position = new PVector();
-    protected float rotation = 0;
-    protected float scale = 1;
-    protected float opacity = 1;
-    protected boolean visible = true;
-    
-    protected abstract void draw(PGraphics pg);
-    
-    protected void addToSceneHook(PxScene scene) {}
-    protected void removedFromSceneHook(PxScene scene) {}
-    
-    // Simple setters that can be chained
-    public PxObject at(float x, float y) {
-        position.set(x, y);
-        return this;
-    }
-    
-    public PxObject rotate(float angle) {
-        rotation = angle;
-        return this;
-    }
-    
-    public PxObject scale(float s) {
-        scale = s;
-        return this;
-    }
-    
-    public PxObject opacity(float o) {
-        opacity = Math.max(0, Math.min(1, o));
-        return this;
-    }
-    
-    public PxObject visible(boolean v) {
-        visible = v;
-        return this;
-    }
-    
-    public boolean isVisible() {
-        return visible;
-    }
-    public void update(){}
+    /** 可选：被添加到场景时的回调 */
+    public void addToSceneHook(PxScene scene) {}
+
+    /** 可选：被移除时的回调 */
+    public void removedFromSceneHook(PxScene scene) {}
+
+    /** 可选：可见性控制 */
+    public boolean isVisible() { return true; }
+
+    /** 必须实现：绘制自己 */
+    public abstract void draw(PGraphics g);
+
+    /** 可选：每帧更新逻辑 */
+    public void update() {}
 }

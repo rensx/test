@@ -84,14 +84,70 @@ public class ProcessingNode extends Region {
     /**
      * Stops the automatic rendering loop if it was active and configured.
      * Does nothing if auto-rendering was not enabled at construction or if the timer is already stopped.
-     */
-  /*  public void stopAnimationLoop() {
+     *//*
+    public void stopAnimationLoop() {
         if (this.autoRenderingConfigured && animationTimer != null) {
             animationTimer.stop();
             // animationTimer = null; // Or keep the instance if you might restart it without re-creation
         }
+    }*/
+// Inside your ProcessingNode.java class
+
+// Add this field to the class:
+private long lastUpdateTimeNanos = 0;
+
+// Modify your method that starts the AnimationTimer (e.g., startAnimationLoopInternal or constructor)
+private void startAnimationLoop() { // Or whatever your method is named
+    if (animationTimer != null) {
+        animationTimer.stop();
     }
-*/
+    // Reset lastUpdateTimeNanos when timer (re)starts
+    this.lastUpdateTimeNanos = 0;
+
+    animationTimer = new AnimationTimer() {
+        @Override
+        public void handle(long nowNanos) {
+            if (lastUpdateTimeNanos == 0) { // First frame after start/restart
+                lastUpdateTimeNanos = nowNanos;
+                // Optionally render a static first frame if needed, or just return
+                // For simplicity, just skip update logic on the very first handle() call
+                // to ensure a valid dt for the next one.
+                // However, rendering an initial state might be desirable.
+                if (pxScene != null && writableImage != null) {
+                     // pxScene.update(0); // Optionally, update with 0 dt for initial setup
+                     pxScene.renderTo(writableImage); // Render initial state
+                }
+                return;
+            }
+
+            double deltaTimeSeconds = (nowNanos - lastUpdateTimeNanos) / 1_000_000_000.0;
+            lastUpdateTimeNanos = nowNanos;
+
+            // Optional: Clamp delta time to prevent unusually large steps (e.g., after a long pause)
+            // This can help stabilize physics and animations.
+            final double MAX_DT = 1.0 / 30.0; // Max step is 1/30th of a second
+            if (deltaTimeSeconds > MAX_DT) {
+                deltaTimeSeconds = MAX_DT;
+            }
+
+            if (pxScene != null && writableImage != null) {
+                 pxScene.update(); // Call PxScene's update with calculated delta time
+                 pxScene.renderTo(writableImage);  // Render the updated scene
+            }
+        }
+    };
+    animationTimer.start();
+}
+
+// If you have a method to stop the loop, like stopAnimationLoop(),
+// you might also want to reset lastUpdateTimeNanos there or upon restarting.
+public void stopAnimationLoop() {
+    if (animationTimer != null) {
+        animationTimer.stop();
+    }
+    // lastUpdateTimeNanos = 0; // Reset so that next start begins dt calculation fresh
+                           // This is already handled in startAnimationLoop.
+}
     /**
      * Restarts the animation loop if auto-rendering was configured at construction
      * and the timer is not currently running (e.g., after a call to {@link #stopAnimationLoop()}).
@@ -202,62 +258,4 @@ public class ProcessingNode extends Region {
         return true;
     }
     */
-
-// Inside your ProcessingNode.java class
-
-// Add this field to the class:
-private long lastUpdateTimeNanos = 0;
-
-// Modify your method that starts the AnimationTimer (e.g., startAnimationLoopInternal or constructor)
-private void startAnimationLoop() { // Or whatever your method is named
-    if (animationTimer != null) {
-        animationTimer.stop();
-    }
-    // Reset lastUpdateTimeNanos when timer (re)starts
-    this.lastUpdateTimeNanos = 0;
-
-    animationTimer = new AnimationTimer() {
-        @Override
-        public void handle(long nowNanos) {
-            if (lastUpdateTimeNanos == 0) { // First frame after start/restart
-                lastUpdateTimeNanos = nowNanos;
-                // Optionally render a static first frame if needed, or just return
-                // For simplicity, just skip update logic on the very first handle() call
-                // to ensure a valid dt for the next one.
-                // However, rendering an initial state might be desirable.
-                if (pxScene != null && writableImage != null) {
-                     // pxScene.update(0); // Optionally, update with 0 dt for initial setup
-                     pxScene.renderTo(writableImage); // Render initial state
-                }
-                return;
-            }
-
-            double deltaTimeSeconds = (nowNanos - lastUpdateTimeNanos) / 1_000_000_000.0;
-            lastUpdateTimeNanos = nowNanos;
-
-            // Optional: Clamp delta time to prevent unusually large steps (e.g., after a long pause)
-            // This can help stabilize physics and animations.
-            final double MAX_DT = 1.0 / 30.0; // Max step is 1/30th of a second
-            if (deltaTimeSeconds > MAX_DT) {
-                deltaTimeSeconds = MAX_DT;
-            }
-
-            if (pxScene != null && writableImage != null) {
-                 pxScene.update(deltaTimeSeconds); // Call PxScene's update with calculated delta time
-                 pxScene.renderTo(writableImage);  // Render the updated scene
-            }
-        }
-    };
-    animationTimer.start();
-}
-
-// If you have a method to stop the loop, like stopAnimationLoop(),
-// you might also want to reset lastUpdateTimeNanos there or upon restarting.
-public void stopAnimationLoop() {
-    if (animationTimer != null) {
-        animationTimer.stop();
-    }
-    // lastUpdateTimeNanos = 0; // Reset so that next start begins dt calculation fresh
-                           // This is already handled in startAnimationLoop.
-}    
 }
