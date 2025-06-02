@@ -1,2 +1,0 @@
-mv /mnt/c/Users/13780/Downloads/*.java ../
-#for i in *.txt; do mv $i ../${i%%.txt}.java; done
